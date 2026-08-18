@@ -8,7 +8,7 @@ int main() {
     int start = 0;
     int end = size - 1;
 
-    while(start < end) {
+    for(int i = 0; i < size / 2; i++) {
         swap(arr[start], arr[end]);
 
         start++;
